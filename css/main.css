@@ -2,7 +2,7 @@
 /* TODO: pagr turinys turi buti centruotas horizontaliai */
 body {
     background-color: #664BAD;
-    
+    overflow: hidden;
     height: 100vh;
 }
 
@@ -10,6 +10,8 @@ body {
     display: inline-block;
     width: 100%;
     height: 100vh;
+    margin-top: -15px;
+    margin-left: -15px;
     background-image: url(../img/signup.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,6 +121,8 @@ input {
     border-bottom: 2px solid #ccc;
 
 }
+
+input::placeholder {}
 
 .btn {
     display: inline-block;
